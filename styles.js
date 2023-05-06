@@ -15,3 +15,14 @@ const body = document.getElementById("body");
       icons.innerHTML = sunIcon;
     }
   }
+  const fileInput = document.getElementById("myFileInput");
+
+  fileInput.addEventListener("change", function() {
+    if (fileInput.files.length > 0 && fileInput.files[0].type.startsWith("image/")) {
+      // A file has been selected and it's an image
+      console.log("An image has been selected");
+    } else {
+      // No file selected or the selected file is not an image
+      console.log("No image selected");
+    }
+  });

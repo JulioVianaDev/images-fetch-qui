@@ -31,7 +31,7 @@ nav{
   color: var(--tertiary-color);
   padding-left: 10px;
 }
-.my-form label{
+.my-form #title{
   margin: 20px;
   font-size: 1.4rem;
 }
@@ -42,13 +42,28 @@ nav{
 .formDiv{
   text-align: center;
   background-color: var(--tertiary-color);
-  width: 50%;
+  width: 45%;
   border-radius: 12px;
   height: 500px;
   
 }
+input[type="file"] {
+  display: none;
+}
+
 .conteudo{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.imageLabel{
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--quaternary-color);
+  color: var(--quinary-color);
 }
