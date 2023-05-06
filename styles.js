@@ -22,8 +22,8 @@ fileInput.addEventListener("change", function() {
   if (fileInput.files.length > 0 && fileInput.files[0].type.startsWith("image/")) {
     // A file has been selected and it's an image
     const reader = new FileReader();
-
     reader.onload = function(event) {
+      imageLabel.innerHTML = ''
       // Set the background-image of the imageLabel to the selected image
       imageLabel.style.backgroundImage = `url(${event.target.result})`;
     }
@@ -32,5 +32,7 @@ fileInput.addEventListener("change", function() {
   } else {
     // No file selected or the selected file is not an image
     imageLabel.style.backgroundImage = "";
+    
+    imageLabel.innerHTML = 'Envie sua imagem'
   }
 });
