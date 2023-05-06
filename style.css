@@ -56,14 +56,11 @@ input[type="file"] {
   flex-direction: row;
   justify-content: space-around;
 }
-.imageLabel{
-  width: 300px;
-  height: 150px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--quaternary-color);
-  color: var(--quinary-color);
+.imageLabel{display: block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
