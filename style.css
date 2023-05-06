@@ -1,22 +1,53 @@
 :root{
-  --background-dark: black;
-  --background-light: white;
+  --primary-color: #010326;
+  --secundary-color: #021859;
+  --tertiary-color:#193773;
+  --quaternary-color:#4E64A6;
+  --quinary-color:#D9D9D9;
 }
 .body-dark{
-  background-color: var(--background-dark);
-  color: white;
+  background-color: var(--primary-color);
+  color: #D9D9D9;
 }
 .body-light{
-  background-color: var(--background-light);
+  background-color: var(--quinary-color);
   color: black
 }
-#moon{
-
-}
-#sun{
-  color: white;
-}
 nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-form input{
+  width: 280px;
+  height: 30px;
+  border-radius: 8px;
+  color: var(--tertiary-color);
+  padding-left: 10px;
+}
+.my-form label{
+  margin: 20px;
+  font-size: 1.4rem;
+}
+.my-form button{
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+.formDiv{
+  text-align: center;
+  background-color: var(--tertiary-color);
+  width: 50%;
+  border-radius: 12px;
+  height: 500px;
+  
+}
+.conteudo{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
