@@ -49,105 +49,105 @@
   }
 }
 @keyframes openCard {
-  0%{right: -210px;}
-  1%{right: -207px;}
-  2%{right: -204px;}
-  3%{right: -201px;}
-  4%{right: -198px;}
-  5%{right: -195px;}
-  6%{right: -192px;}
-  7%{right: -189px;}
-  8%{right: -186px;}
-  9%{right: -183px;}
-  10%{right: -180px;}
-  11%{right: -177px;}
-  12%{right: -174px;}
-  13%{right: -171px;}
-  14%{right: -168px;}
-  15%{right: -165px;}
-  16%{right: -162px;}
-  17%{right: -159px;}
-  18%{right: -156px;}
-  19%{right: -153px;}
-  20%{right: -150px;}
-  21%{right: -147px;}
-  22%{right: -144px;}
-  23%{right: -141px;}
-  24%{right: -138px;}
-  25%{right: -135px;}
-  26%{right: -132px;}
-  27%{right: -129px;}
-  28%{right: -126px;}
-  29%{right: -123px;}
-  30%{right: -120px;}
-  31%{right: -117px;}
-  32%{right: -114px;}
-  33%{right: -111px;}
-  34%{right: -108px;}
-  35%{right: -105px;}
-  36%{right: -102px;}
-  37%{right: -99px;}
-  38%{right: -96px;}
-  39%{right: -93px;}
-  40%{right: -90px;}
-  41%{right: -87px;}
-  42%{right: -84px;}
-  43%{right: -81px;}
-  44%{right: -78px;}
-  45%{right: -75px;}
-  46%{right: -72px;}
-  47%{right: -69px;}
-  48%{right: -66px;}
-  49%{right: -63px;}
-  50%{right: -60px;}
-  51%{right: -57px;}
-  52%{right: -54px;}
-  53%{right: -51px;}
-  54%{right: -48px;}
-  55%{right: -45px;}
-  56%{right: -42px;}
-  57%{right: -39px;}
-  58%{right: -36px;}
-  59%{right: -33px;}
-  60%{right: -30px;}
-  61%{right: -27px;}
-  62%{right: -24px;}
-  63%{right: -21px;}
-  64%{right: -18px;}
-  65%{right: -15px;}
-  66%{right: -12px;}
-  67%{right: -9px;}
-  68%{right: -6px;}
-  69%{right: -3px;}
-  70%{right: 0px;}
-  71%{right: 3px;}
-  72%{right: 6px;}
-  73%{right: 9px;}
-  74%{right: 12px;}
-  75%{right: 15px;}
-  76%{right: 18px;}
-  77%{right: 21px;}
-  78%{right: 24px;}
-  79%{right: 27px;}
-  80%{right: 30px;}
-  81%{right: 33px;}
-  82%{right: 36px;}
-  83%{right: 39px;}
-  84%{right: 42px;}
-  85%{right: 45px;}
-  86%{right: 48px;}
-  87%{right: 51px;}
-  88%{right: 54px;}
-  89%{right: 57px;}
-  90%{right: 60px;}
-  91%{right: 63px;}
-  92%{right: 66px;}
-  93%{right: 69px;}
-  94%{right: 69px;}
-  95%{right: 66px;}
-  96%{right: 63px;}
-  97%{right: 60px;}
-  98%{right: 57px;}
-  99%{right: 53px;}
-  100%{right: 50px;} 
+  0%{right: -210px;opacity: 1;}
+  1%{right: -207px;opacity: 1;}
+  2%{right: -204px;opacity: 1;}
+  3%{right: -201px;opacity: 1;}
+  4%{right: -198px;opacity: 1;}
+  5%{right: -195px;opacity: 1;}
+  6%{right: -192px;opacity: 1;}
+  7%{right: -189px;opacity: 1;}
+  8%{right: -186px;opacity: 1;}
+  9%{right: -183px;opacity: 1;}
+  10%{right: -180px;opacity: 1;}
+  11%{right: -177px;opacity: 1;}
+  12%{right: -174px;opacity: 1;}
+  13%{right: -171px;opacity: 1;}
+  14%{right: -168px;opacity: 1;}
+  15%{right: -165px;opacity: 1;}
+  16%{right: -162px;opacity: 1;}
+  17%{right: -159px;opacity: 1;}
+  18%{right: -156px;opacity: 1;}
+  19%{right: -153px;opacity: 1;}
+  20%{right: -150px;opacity: 1;}
+  21%{right: -147px;opacity: 1;}
+  22%{right: -144px;opacity: 1;}
+  23%{right: -141px;opacity: 1;}
+  24%{right: -138px;opacity: 1;}
+  25%{right: -135px;opacity: 1;}
+  26%{right: -132px;opacity: 1;}
+  27%{right: -129px;opacity: 1;}
+  28%{right: -126px;opacity: 1;}
+  29%{right: -123px;opacity: 1;}
+  30%{right: -120px;opacity: 1;}
+  31%{right: -117px;opacity: 1;}
+  32%{right: -114px;opacity: 1;}
+  33%{right: -111px;opacity: 1;}
+  34%{right: -108px;opacity: 1;}
+  35%{right: -105px;opacity: 1;}
+  36%{right: -102px;opacity: 1;}
+  37%{right: -99px;opacity: 1;}
+  38%{right: -96px;opacity: 1;}
+  39%{right: -93px;opacity: 1;}
+  40%{right: -90px;opacity: 1;}
+  41%{right: -87px;opacity: 1;}
+  42%{right: -84px;opacity: 1;}
+  43%{right: -81px;opacity: 1;}
+  44%{right: -78px;opacity: 1;}
+  45%{right: -75px;opacity: 1;}
+  46%{right: -72px;opacity: 1;}
+  47%{right: -69px;opacity: 1;}
+  48%{right: -66px;opacity: 1;}
+  49%{right: -63px;opacity: 1;}
+  50%{right: -60px;opacity: 1;}
+  51%{right: -57px;opacity: 1;}
+  52%{right: -54px;opacity: 1;}
+  53%{right: -51px;opacity: 1;}
+  54%{right: -48px;opacity: 1;}
+  55%{right: -45px;opacity: 1;}
+  56%{right: -42px;opacity: 1;}
+  57%{right: -39px;opacity: 1;}
+  58%{right: -36px;opacity: 1;}
+  59%{right: -33px;opacity: 1;}
+  60%{right: -30px;opacity: 1;}
+  61%{right: -27px;opacity: 1;}
+  62%{right: -24px;opacity: 1;}
+  63%{right: -21px;opacity: 1;}
+  64%{right: -18px;opacity: 1;}
+  65%{right: -15px;opacity: 1;}
+  66%{right: -12px;opacity: 1;}
+  67%{right: -9px;opacity: 1;}
+  68%{right: -6px;opacity: 1;}
+  69%{right: -3px;opacity: 1;}
+  70%{right: 0px;opacity: 1;}
+  71%{right: 3px;opacity: 1;}
+  72%{right: 6px;opacity: 1;}
+  73%{right: 9px;opacity: 1;}
+  74%{right: 12px;opacity: 1;}
+  75%{right: 15px;opacity: 1;}
+  76%{right: 18px;opacity: 1;}
+  77%{right: 21px;opacity: 1;}
+  78%{right: 24px;opacity: 1;}
+  79%{right: 27px;opacity: 1;}
+  80%{right: 30px;opacity: 1;}
+  81%{right: 33px;opacity: 1;}
+  82%{right: 36px;opacity: 1;}
+  83%{right: 39px;opacity: 1;}
+  84%{right: 42px;opacity: 1;}
+  85%{right: 45px;opacity: 1;}
+  86%{right: 48px;opacity: 1;}
+  87%{right: 51px;opacity: 1;}
+  88%{right: 54px;opacity: 1;}
+  89%{right: 57px;opacity: 1;}
+  90%{right: 60px;opacity: 1;}
+  91%{right: 63px;opacity: 1;}
+  92%{right: 66px;opacity: 1;}
+  93%{right: 69px;opacity: 1;}
+  94%{right: 69px;opacity: 1;}
+  95%{right: 66px;opacity: 1;}
+  96%{right: 63px;opacity: 1;}
+  97%{right: 60px;opacity: 1;}
+  98%{right: 57px;opacity: 1;}
+  99%{right: 53px;opacity: 1;}
+  100%{right: 50px;opacity: 1;} 
 }
