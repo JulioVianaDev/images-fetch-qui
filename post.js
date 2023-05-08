@@ -12,7 +12,7 @@ function handleSubmit(event) {
 }
 const miniCard = document.getElementById("miniCard");
 async function submitToAPI(data){
-  var response = await fetch("http:/lhost:3000/posts",{
+  var response = await fetch("http:/localhost:3000/posts",{
     method: "POST",
     body: data,
   })
