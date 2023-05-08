@@ -17,6 +17,9 @@ async function submitToAPI(data){
       method: "POST",
       body: data,
     })
+    var json = await response.json()
+    const latestPost = document.getElementById("latest-post");
+    latestPost.innerHTML = `<img class="LatestImagem" src="${json.image_url}" alt="ultima Imagem" />`;
     var colorCard = 'greenCard';
     var textCard= 'Foto cadastrada com sucesso!'
     endAnimation()
@@ -26,9 +29,7 @@ async function submitToAPI(data){
     endAnimation()
   }
   miniCard.innerHTML = `<div id="card" class='${colorCard}'> ${textCard}</div>`  
-  var json = await response.json()
-  const latestPost = document.getElementById("latest-post");
-  latestPost.innerHTML = `<img class="LatestImagem" src="${json.image_url}" alt="ultima Imagem" />`;
+  
   endAnimation()
 }
 function endAnimation(){

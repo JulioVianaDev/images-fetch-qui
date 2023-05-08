@@ -18,6 +18,14 @@ body{
   background-color: var(--quinary-color);
   color: black
 }
+.body-light .conteudo .formDiv{
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+}
+.body-light .conteudo #imagem{
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+}
 nav{
   display: flex;
   flex-direction: row;
