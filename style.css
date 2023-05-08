@@ -4,6 +4,8 @@
   --tertiary-color:#193773;
   --quaternary-color:#4E64A6;
   --quinary-color:#D9D9D9;
+  --error-color: red;
+  --pass-color: green;
 }
 body{
   overflow: hidden;
@@ -94,10 +96,15 @@ input[type="file"] {
   position: absolute;
   right: 50px;
   bottom: 50px;
-  background-color: var(--quaternary-color);
   width: 300px;
   height: 140px;
   border-radius: 12px;
   animation: openCard 0.3s ease-out;
 }
 
+.greenCard{
+  background-color:  var(--pass-color);
+}
+.redCard{
+  background-color:  var(--error-color);
+}

@@ -1,6 +1,7 @@
 const form = document.getElementById("my-form");
 form.addEventListener("submit",handleSubmit);
-
+var colorCard = 'greenCard';
+var textCard =''
 function handleSubmit(event) {
   event.preventDefault();
   const data = new FormData();
@@ -9,13 +10,21 @@ function handleSubmit(event) {
   // console.log(data)
   submitToAPI(data);
 }
+const miniCard = document.getElementById("miniCard");
 async function submitToAPI(data){
-  var response = await fetch("http://localhost:3000/posts",{
+  var response = await fetch("http:/lhost:3000/posts",{
     method: "POST",
     body: data,
   })
+  if(!response.ok){
+    var colorCard = 'redCard';
+    var textCard = "Algo deu errado!"
+  }else{
+    var colorCard = 'greenCard';
+    var textCard= 'Foto cadastrada com sucesso!'
+  }
+  miniCard.innerHTML = `<div id="card" class='${colorCard}'> ${textCard}</div>`  
   var json = await response.json()
-  console.log(json)
   const latestPost = document.getElementById("latest-post");
   latestPost.innerHTML = `<img class="LatestImagem" src="${json.image_url}" alt="ultima Imagem" />`;
 }
