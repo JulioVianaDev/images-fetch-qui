@@ -57,7 +57,9 @@ input[type="file"] {
   justify-content: space-around;
 }
 .imageLabel{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px;
   height: 200px;
   border: 2px solid var(--quinary-color);
@@ -65,4 +67,10 @@ input[type="file"] {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat; 
+}
+.form-button{
+  color: var(--quinary-color);
+  background-color: var(--secundary-color);
+  border: var(--quaternary-color) solid 1px;
+  border-radius: 8px;
 }
