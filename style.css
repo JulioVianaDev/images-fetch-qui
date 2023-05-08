@@ -5,6 +5,9 @@
   --quaternary-color:#4E64A6;
   --quinary-color:#D9D9D9;
 }
+body{
+  overflow: hidden;
+}
 .body-dark{
   background-color: var(--primary-color);
   color: #D9D9D9;
@@ -85,43 +88,16 @@ input[type="file"] {
 .LatestImagem{
   width: 250px;
   height: 250px;
-  animation: latestImagemAnimation 2s ease-in-out;
+  animation: latestImagemAnimation 1s ease-in-out;
+}
+#card{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  background-color: var(--quaternary-color);
+  width: 300px;
+  height: 140px;
+  border-radius: 12px;
+  animation: openCard 0.3s ease-out;
 }
 
-@keyframes latestImagemAnimation {
-  0%{
-    opacity: 0;
-  }
-  10%{
-    opacity: 0.1;
-  }
-  20%{
-    opacity: 0.2;
-  }
-  30%{
-    opacity: 0.3;
-  }
-  40%{
-    opacity: 0.4;
-  }
-  50%{
-    opacity: 0.5;
-  }
-  60%{
-    opacity: 0.6;
-  }
-  70%{
-    opacity: 0.7;
-  }
-  80%{
-    opacity: 0.8;
-  }
-  90%{
-    opacity: 0.9; 
-  }
-  100%{
-    opacity: 1;
-  }
-  
-  
-}

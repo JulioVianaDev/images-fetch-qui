@@ -13,3 +13,141 @@
     background-color: black;
   }
 }
+@keyframes latestImagemAnimation {
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 0.1;
+  }
+  20%{
+    opacity: 0.2;
+  }
+  30%{
+    opacity: 0.3;
+  }
+  40%{
+    opacity: 0.4;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  60%{
+    opacity: 0.6;
+  }
+  70%{
+    opacity: 0.7;
+  }
+  80%{
+    opacity: 0.8;
+  }
+  90%{
+    opacity: 0.9; 
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes openCard {
+  0%{right: -210px;}
+  1%{right: -207px;}
+  2%{right: -204px;}
+  3%{right: -201px;}
+  4%{right: -198px;}
+  5%{right: -195px;}
+  6%{right: -192px;}
+  7%{right: -189px;}
+  8%{right: -186px;}
+  9%{right: -183px;}
+  10%{right: -180px;}
+  11%{right: -177px;}
+  12%{right: -174px;}
+  13%{right: -171px;}
+  14%{right: -168px;}
+  15%{right: -165px;}
+  16%{right: -162px;}
+  17%{right: -159px;}
+  18%{right: -156px;}
+  19%{right: -153px;}
+  20%{right: -150px;}
+  21%{right: -147px;}
+  22%{right: -144px;}
+  23%{right: -141px;}
+  24%{right: -138px;}
+  25%{right: -135px;}
+  26%{right: -132px;}
+  27%{right: -129px;}
+  28%{right: -126px;}
+  29%{right: -123px;}
+  30%{right: -120px;}
+  31%{right: -117px;}
+  32%{right: -114px;}
+  33%{right: -111px;}
+  34%{right: -108px;}
+  35%{right: -105px;}
+  36%{right: -102px;}
+  37%{right: -99px;}
+  38%{right: -96px;}
+  39%{right: -93px;}
+  40%{right: -90px;}
+  41%{right: -87px;}
+  42%{right: -84px;}
+  43%{right: -81px;}
+  44%{right: -78px;}
+  45%{right: -75px;}
+  46%{right: -72px;}
+  47%{right: -69px;}
+  48%{right: -66px;}
+  49%{right: -63px;}
+  50%{right: -60px;}
+  51%{right: -57px;}
+  52%{right: -54px;}
+  53%{right: -51px;}
+  54%{right: -48px;}
+  55%{right: -45px;}
+  56%{right: -42px;}
+  57%{right: -39px;}
+  58%{right: -36px;}
+  59%{right: -33px;}
+  60%{right: -30px;}
+  61%{right: -27px;}
+  62%{right: -24px;}
+  63%{right: -21px;}
+  64%{right: -18px;}
+  65%{right: -15px;}
+  66%{right: -12px;}
+  67%{right: -9px;}
+  68%{right: -6px;}
+  69%{right: -3px;}
+  70%{right: 0px;}
+  71%{right: 3px;}
+  72%{right: 6px;}
+  73%{right: 9px;}
+  74%{right: 12px;}
+  75%{right: 15px;}
+  76%{right: 18px;}
+  77%{right: 21px;}
+  78%{right: 24px;}
+  79%{right: 27px;}
+  80%{right: 30px;}
+  81%{right: 33px;}
+  82%{right: 36px;}
+  83%{right: 39px;}
+  84%{right: 42px;}
+  85%{right: 45px;}
+  86%{right: 48px;}
+  87%{right: 51px;}
+  88%{right: 54px;}
+  89%{right: 57px;}
+  90%{right: 60px;}
+  91%{right: 63px;}
+  92%{right: 66px;}
+  93%{right: 69px;}
+  94%{right: 69px;}
+  95%{right: 66px;}
+  96%{right: 63px;}
+  97%{right: 60px;}
+  98%{right: 57px;}
+  99%{right: 53px;}
+  100%{right: 50px;} 
+}
