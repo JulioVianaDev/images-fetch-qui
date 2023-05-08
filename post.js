@@ -17,5 +17,5 @@ async function submitToAPI(data){
   var json = await response.json()
   console.log(json)
   const latestPost = document.getElementById("latest-post");
-  latestPost.innerHTML = `<img src="${json.image_url}" alt="ultima Imagem" />`;
+  latestPost.innerHTML = `<img class="LatestImagem" src="${json.image_url}" alt="ultima Imagem" />`;
 }

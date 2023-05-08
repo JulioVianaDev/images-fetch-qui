@@ -42,7 +42,7 @@ nav{
 .formDiv{
   text-align: center;
   background-color: var(--tertiary-color);
-  width: 45%;
+  width: 40%;
   border-radius: 12px;
   height: 500px;
   
@@ -50,7 +50,15 @@ nav{
 input[type="file"] {
   display: none;
 }
-
+#imagem{
+  background-color: var(--tertiary-color);
+  width: 40%;
+  border-radius: 12px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .conteudo{
   display: flex;
   flex-direction: row;
@@ -73,4 +81,47 @@ input[type="file"] {
   background-color: var(--secundary-color);
   border: var(--quaternary-color) solid 1px;
   border-radius: 8px;
+}
+.LatestImagem{
+  width: 250px;
+  height: 250px;
+  animation: latestImagemAnimation 2s ease-in-out;
+}
+
+@keyframes latestImagemAnimation {
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 0.1;
+  }
+  20%{
+    opacity: 0.2;
+  }
+  30%{
+    opacity: 0.3;
+  }
+  40%{
+    opacity: 0.4;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  60%{
+    opacity: 0.6;
+  }
+  70%{
+    opacity: 0.7;
+  }
+  80%{
+    opacity: 0.8;
+  }
+  90%{
+    opacity: 0.9; 
+  }
+  100%{
+    opacity: 1;
+  }
+  
+  
 }
