@@ -15,7 +15,7 @@ function toggleTheme() {
     icons.innerHTML = sunIcon;
   }
 }
-const fileInput = document.getElementById("myFileInput");
+const fileInput = document.getElementById("image");
 const imageLabel = document.getElementById("imageLabel");
 
 fileInput.addEventListener("change", function() {
